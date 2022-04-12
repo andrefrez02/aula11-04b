@@ -1,0 +1,10 @@
+idade = int(input('Digite sua idade: '))
+
+if idade < 16:
+    r = ' não é eleitor'
+elif idade >= 18 and idade <= 65:
+    r = ' é eleitor'
+else:
+    r = ' é eleitor facultativo'
+
+print(f'Você{r}')
